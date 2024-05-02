@@ -11,6 +11,7 @@ public class AmazonTest {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
         System.out.println("this is amazonTest");
+        System.out.println("Hi Git");
     }
 
     @Test(groups = {"login"})
