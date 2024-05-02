@@ -9,6 +9,8 @@ public class ConflictTests {
         int a = 5;
         int b = 20;
         int sum = (a+b) * 2;
+
+
         System.out.println("sum: " + sum);
     }
     @Test
