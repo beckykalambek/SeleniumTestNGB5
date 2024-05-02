@@ -13,6 +13,6 @@ public class ConflictTests {
     @Test
     public void test2 (){
         String message = "Welcome to USA";
-        Assert.assertTrue(message.contains("USA"));
+        Assert.assertTrue(message.toLowerCase().contains("usa"));
     }
 }
