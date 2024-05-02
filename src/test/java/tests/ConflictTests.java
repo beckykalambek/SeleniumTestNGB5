@@ -10,7 +10,6 @@ public class ConflictTests {
         int b = 20;
         int sum = (a+b) * 2;
 
-
         System.out.println("sum: " + sum);
     }
     @Test
